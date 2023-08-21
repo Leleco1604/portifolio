@@ -46,3 +46,20 @@ body {
     transform: rotate(180deg);
     
 }
+
+@media only screen and (min-width: 768px) {
+    .main{
+        max-width: 1024px;
+        margin: 1rem auto;
+    }
+
+    .main::before{
+        width: 70vw;
+    }
+
+    .main::after{
+        height: 70vw;
+    }
+
+
+}
