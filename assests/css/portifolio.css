@@ -1,0 +1,32 @@
+.portifolio{
+    display: flex;
+    flex-direction: flex;
+    justify-content: flex-start;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    list-style: none; 
+}
+
+.portifolio li{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin:1rem 0;
+}
+
+.portifolio li .title{
+    font-size: 1.25rem;
+    font-weight: 700;
+}
+
+.portifolio li a{
+    color: #fff;
+    text-decoration: none;
+}
+
+.portifolio li a:hover{
+    color: #fff;
+    text-decoration: underline;
+}
+
