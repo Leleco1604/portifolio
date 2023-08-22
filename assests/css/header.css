@@ -4,6 +4,19 @@
     align-items: center;
 }
 
+
+.header::after{
+    content: '';
+    display: inline-block;
+    top: 1rem;
+    right: 1rem;
+    width: 2rem;
+    height: 2rem;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-image: url('assests/img/icons/header.svg');
+}
+
 .header .photo {
     width: 200px;
     height: 200px;
