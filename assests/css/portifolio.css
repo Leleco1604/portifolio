@@ -34,6 +34,7 @@
     background-size: contain;
     background-image: url('/portifolio/assests/img/icons/github.svg');
     margin-right: .5rem;
+    margin: 0.5rem;
 }
 
 .portifolio li a{

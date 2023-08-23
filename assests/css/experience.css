@@ -6,13 +6,13 @@
     list-style: none;
 }
 
-.experience li .period{
+.experience li .period {
     display: flex;
     flex-direction: row;
     align-items: center;
-}   
+}
 
-.experience li .period{
+.experience li .period .calendar-icon::before {
     content: "";
     display: inline-block;
     width: 1rem;
@@ -20,5 +20,5 @@
     background-repeat: no-repeat;
     background-size: contain;
     background-image: url('/portifolio/assests/img/icons/calendar.svg');
-    margin-right: .5rem;
+    margin-right: 0.5rem;
 }
