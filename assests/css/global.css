@@ -18,7 +18,7 @@ body {
 
 .main::before{
     content: '';
-    background-image: url('assests/img/backgroud.svg');
+    background-image: url('/portifolio/assests/img/backgroud.svg');
     background-repeat: no-repeat;
     background-size: contain;
     display: inline-block;
@@ -33,7 +33,7 @@ body {
 
 .main::after{
     content: '';
-    background-image: url('assests/img/backgroud.svg');
+    background-image: url('/portifolio/assests/img/backgroud.svg');
     background-repeat: no-repeat;
     background-size: contain;
     display: inline-block;

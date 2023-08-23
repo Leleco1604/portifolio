@@ -15,30 +15,70 @@
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
 
     
-    <link rel="stylesheet" href="assests/css/global.css">
-    <link rel="stylesheet" href="assests/css/header.css">
-    <link rel="stylesheet" href="assests/css/acordeon.css">
-    <link rel="stylesheet" href="assests/css/languages.css">
-    <link rel="stylesheet" href="assests/css/portifolio.css">
+    <link rel="stylesheet" href="/portifolio/assests/css/global.css">
+    <link rel="stylesheet" href="/portifolio/assests/css/header.css">
+    <link rel="stylesheet" href="/portifolio/assests/css/acordeon.css">
+    <link rel="stylesheet" href="/portifolio/assests/css/languages.css">
+    <link rel="stylesheet" href="/portifolio/assests/css/portifolio.css">
+    <link rel="stylesheet" href="/portifolio/assests/css/experience.css">
+    <link rel="stylesheet" href="/portifolio/assests/css/skills.css">
+
 </head>
 
 
-<body>
+<body>  
     <main class ="main">
         <header class ="header">
             <img src="assests/img/foto leonardo.png" alt="Foto de Leonardo" class = "photo">
             <h1 class="title">Olá, eu sou Leonardo Barbosa</h1>
             <div class="information">
-                <p clas="job">Junior Developer</p>
-                <p class="location">Recife-PE</p>
-                <p class="phone">(81) 996257747</p>
-                <p class="email">leonardogbarbosa2003@gmail.com</p>
+                <p class="job">
+                    <span class="icon job-icon"></span> Junior Developer
+                </p>
+                <p class="location">
+                    <span class="icon location-icon"></span> Recife-PE
+                </p>
+                <p class="phone">
+                    <span class="icon phone-icon"></span> (81) 996257747
+                </p>
+                <p class="email">
+                    <span class="icon email-icon"></span> leonardogbarbosa2003@gmail.com
+                </p>
             </div>
         </header> 
 
         <section class="acordeon open">
-            <button class = "trigger" type="button">
-              Idiomas
+            <button class="trigger" type="button">
+                Skills
+            </button>
+            <div class ="content">
+                <div class="skills">
+                    <section class="tools">
+                    <h3>Hablidades Profissionais </h3>
+                    <ul>
+                        <li>
+                            <img src="/portifolio/assests/img/languages/js.svg" alt="JavaScript" title="JavaScript">
+                        </li>
+                    </ul>
+                </section>
+
+                    <section class="personal">
+                        <h3>Personal Skills</h3>
+                        <ul>
+                            <li>Liderança</li>
+                            <li>Facilidade de Comuninação</li>
+                            <li>Organização</li>
+                            <li>Trabalho em equipe</li>
+                            <li>Liderança</li>
+                        </ul>
+                    </section>
+                </div>
+            </div>
+        </section>
+
+        <section class="acordeon">
+            <button class="trigger" type="button">
+                Idiomas
             </button>
 
             <div class ="content">
@@ -50,7 +90,7 @@
             </div>
         </section>
 
-        <section class="acordeon open">
+        <section class="acordeon">
             <button class = "trigger" type="button">
               Projetos
             </button>
@@ -73,9 +113,49 @@
             </div>
 
         </section>
+
+        <section class="acordeon">
+            <button class = "trigger" type="button">
+              Experiência Profissional
+            </button>
+
+            <div class ="content">
+                <ul class="experience">
+                    <li>
+                        <span class ="title">Wyntech</span>
+                        <span class = "periodo"> 10/2022 - 05/2023 </span>
+                        <p> Atuação na manutenção preventiva e corretiva dos ATMS da Caixa Econômica
+                            Federal, garantindo sua conectividade.
+                            Gestor na parte de monitoramento dos ATMS da caixa econômica federal dos
+                            estados de Alagoas e Paraíba.
+                            Cuidar da Logística das rotas que os técnicos de campo fazem diariamente e
+                            eventualmente. 
+                        </p>
+                    </li>    
+                    <li>
+                        <span class ="title">Veneza assessoria - Auxiliar administrativo</span>
+                        <span class = "period"> 04/2022 - 10/2023 </span>
+                        <p> Responsável pelas vendas, negociação de preços e descontos,
+                            condições de pagamento, com foco na retenção da carteira de
+                            clientes
+                            Apoio operacional ao setor de implantação, acompanhando as
+                            etapas e níveis de satisfação do cliente
+                            Atendimento de clientes por meio eletrônico e telefônico, tirando
+                            dúvidas e auxiliando na finalização de propostas realizados on-line
+                            Prospecção de clientes pelos canais digitais, captando potenciais
+                            interessados na aquisição dos produtos ou serviços.
+                            
+                        </p>
+                    </li>    
+                </ul>
+            </div>
+
+        </section>
+
+
     </main>
 
-    <script src = "assests/js/acordeon.js"></script>
+    <script src = '/portifolio/assests/js/acordeon.js'></script>
 </body>
 
 </html>

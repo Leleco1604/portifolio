@@ -14,7 +14,7 @@
     height: 2rem;
     background-repeat: no-repeat;
     background-size: contain;
-    background-image: url('assests/img/icons/header.svg');
+    background-image: url('/portifolio/assests/img/icons/header.svg');
 }
 
 .header .photo {
@@ -49,21 +49,31 @@
     margin-right: .7rem;
 }
 
+.icon {
+    display: inline-block;
+    width: 1rem;
+    height: 1rem;
+    margin-right: 0.5rem;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
 
-.information .job ::before {
+.job-icon {
     background-image: url('/portifolio/assests/img/icons/job.svg');
 }
 
-.information .location ::before {
+.location-icon {
     background-image: url('/portifolio/assests/img/icons/location.svg');
 }
-.information .email ::before {
+
+.email-icon {
     background-image: url('/portifolio/assests/img/icons/email.svg');
 }
 
-.information .phone ::before {
+.phone-icon {
     background-image: url('/portifolio/assests/img/icons/phone.svg');
 }
+
 
 @media only screen and (min-width: 768px) {
 
