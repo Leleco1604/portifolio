@@ -17,6 +17,7 @@
 .acordeon .trigger{
     display: flex;
     flex-direction: row;
+    justify-content: space-between;
     font-size: 1.5rem;
     font-weight: 700;
     padding: 1rem 2rem;
@@ -26,16 +27,7 @@
 
 }
 
-.acordeon .trigger::after{
-    content: '';
-    display: inline-block;
-    width: 1.5rem;
-    height: 1.5rem;
-    background-repeat: no-repeat;
-    background-size: contain;
-    background-image: url('/portifolio/assests/img/icons/arrow-top.svg');
-    transition: .25s;
-}
+
 
 .acordeon.open .trigger::after{
     transform: rotate(180deg);
@@ -59,3 +51,14 @@
     height: auto;
     opacity: 1;
 }
+.arrow-icon {
+    content: '';
+    display: inline-block;
+    width: 1.5rem;
+    height: 1.5rem;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-image: url('/portifolio/assests/img/icons/arrow-top.svg');
+    transition: .25s;
+}
+
